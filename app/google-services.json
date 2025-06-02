@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451148246489",
+    "project_id": "f2dsm-17538",
+    "storage_bucket": "f2dsm-17538.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451148246489:android:dbc4831563c37c419dfdc8",
+        "android_client_info": {
+          "package_name": "com.dsm.eventos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451148246489-hogk956495cvjkr6kve6dog2131chfcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqSLLSrjX9r9uPhcxcr9RJh6j0RAY6zIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451148246489-hogk956495cvjkr6kve6dog2131chfcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

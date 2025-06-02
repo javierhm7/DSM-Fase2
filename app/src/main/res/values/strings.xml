@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eventos Comunitarios</string>
+    <string name="mail">Correo electronico</string>
+    <string name="pass">Contraseña</string>
+    <string name="btnlogin">Login</string>
+    <string name="btnloginGoogle">Ingresar con google</string>
+    <string name="logueado">Bienvenido</string>
+    <string name="red_social">Eventos Comunitarios</string>
+    <string name="perfilImage">Perfil</string>
+    <string name="addEvent">Añadir evento</string>
+    <string name="nombre">Nombre de la actividad</string>
+    <string name="fecha">Fecha del evento</string>
+    <string name="hora">Hora del evento</string>
+    <string name="ubicacion">Lugar del evento</string>
+    <string name="descripcion">Detalles de la actividad</string>
+    <string name="participar">Participar</string>
+    <string name="registrar">Registrar</string>
+    <string name="comentar">Comentar</string>
+    <string name="eventos">Eventos</string>
+    <string name="historial">Historial</string>
+    <string name="dejarComment">Deja un comentario</string>
+</resources>

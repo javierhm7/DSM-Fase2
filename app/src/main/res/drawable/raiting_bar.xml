@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo de las estrellas (vacías) -->
+    <item android:id="@android:id/background">
+        <bitmap
+            android:src="@android:drawable/btn_star_big_off"
+            android:tint="#EDE5E5"
+            android:tintMode="src_in" />
+    </item>
+
+    <!-- Parte secundaria (mitad llenas) -->
+    <item android:id="@android:id/secondaryProgress">
+        <bitmap
+            android:src="@android:drawable/btn_star_big_on"
+            android:tint="#9CFFFFFF"
+            android:tintMode="src_in" />
+    </item>
+
+    <!-- Parte primaria (llenas) -->
+    <item android:id="@android:id/progress">
+        <bitmap
+            android:src="@android:drawable/btn_star_big_on"
+            android:tint="#FFE60A"
+            android:tintMode="src_in" />
+    </item>
+</layer-list>

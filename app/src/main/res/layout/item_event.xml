@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <TextView
+        android:id="@+id/tvEventName"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvEventOrganizador"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#616161"
+        android:text=""
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvEventDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:text=""
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvEventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:text=""
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tvEventParticipantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:text=""
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/btnComentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/success"
+        android:text="@string/comentar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnParticipar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10px"
+            android:backgroundTint="@color/cyan"
+            android:text="@string/participar" />
+
+        <Button
+            android:id="@+id/btnShareEvent"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10px"
+            android:backgroundTint="#CAF0C7"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/baseline_share_24" />
+
+        <Button
+            android:id="@+id/btnShareMail"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#CAF0C7"
+            android:contentDescription="@string/app_name"
+            android:drawableLeft="@drawable/baseline_alternate_email_24" />
+    </LinearLayout>
+
+</LinearLayout>
